@@ -1,0 +1,59 @@
+body{
+    color: white;
+    background: rgb(0, 0, 0) !important;
+   
+}
+
+.logo{
+    min-width: 70px;
+    width: 70px;
+    height: auto;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none !important;
+    color: #fff !important;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: rgba(255, 255, 255, 0.493) !important;
+}
+
+div#navbarNav {
+    justify-content: space-between;
+    justify-content: center;
+}
+
+body {
+    background: url('webb-dark.png') no-repeat center center fixed;
+    height: auto;
+    overflow-y: hidden;
+    }
+    
+    @media (min-width: 992px) {
+        .navbar {
+            height:50px;
+            padding-top: 0;
+            overflow: visible;
+        }
+    }
+    
+    .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    height: 100px;
+    top: 0;
+    z-index: 2;
+    }
+
+
+    .vertical .carousel-inner {
+        height: 100%;
+      }
+      
+  
