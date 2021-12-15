@@ -68,5 +68,11 @@ body {
     }
 
     #carouselExampleIndicators{
-        margin-top: 4rem !important;
+        margin-top: 3rem !important;
     }
+
+    .carousel-indicators > button {
+        border-radius: 50% !important;
+        width: 5px !important;
+        height: 5px !important;
+      }

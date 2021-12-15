@@ -9,7 +9,7 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 })
 
 
-/*
+
 
   setInterval(function(){ 
   
@@ -49,6 +49,7 @@ setInterval(function(){
     var amarelho = '#efd77a'
 
     document.getElementById("navbar").style.backgroundColor = roxo;
+    document.getElementById("caroulseldiv").style.backgroundColor = roxo;
 
 
 }, 4000);
@@ -81,4 +82,3 @@ setInterval(function(){
 
  
 
-*/
