@@ -106,3 +106,13 @@ div#navbarNav {
         animation: glow 1s ease-in-out infinite alternate;
     }
 
+
+
+    .card-body img{
+        width: 90px;
+    }
+
+    .cards {
+       
+        
+    }
