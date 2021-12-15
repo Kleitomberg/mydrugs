@@ -81,6 +81,11 @@ div#navbarNav {
     #carouselExampleIndicators{
         margin-top: 3rem !important;
     }
+    
+    #produto-detail{
+        margin-top: 7rem !important;
+
+    }
 
     .carousel-indicators > button {
         border-radius: 50% !important;
@@ -106,13 +111,62 @@ div#navbarNav {
         animation: glow 1s ease-in-out infinite alternate;
     }
 
+    .gg{
+        text-shadow: 0 0 12px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;
+    }
 
 
     .card-body img{
         width: 90px;
     }
 
-    .cards {
+    .card.cart {
+       border-radius: 10px;
        
         
+    }
+
+    .card-body.cart{
+        padding: 20px;
+    }
+
+
+    .cart p{
+        font-size: 14px;
+      
+    }
+
+    .cart p.c{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 0;
+      
+    }
+    .cart {
+      width: 255px;
+      height: auto;
+      
+    }
+
+    h6{
+        font-size: 12px;
+    }
+
+
+    img.profile{
+        border-radius: 50%;
+        width: 5vw !important;
+    }
+
+    .user{
+        
+        align-items: center;
+    }
+
+    .d-flex.btns {
+        align-items: center;
+    }
+    .d-flex.btns  button{
+        height: 40px;
+        font-size: 14px;
     }

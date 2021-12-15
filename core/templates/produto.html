@@ -1,0 +1,212 @@
+{% extends 'base.html' %}
+
+{% load static%}
+
+{% block title %}
+    <title>Details Product</title>
+    {% endblock %}
+
+
+    {% block conteudo %}
+
+        <div class="row justify-content-center" id="produto-detail">
+
+
+            <div class="col-md-4 imagem">
+                <img class="img-fluid w-75 " src="{% static 'img/drugs/red.png'%}" alt="">
+            </div>
+
+            <div class="col-md-4 detalhes">
+                <h1 class="gg"> Red <br>
+                    Pill
+
+                </h1>
+                <span class="badge rounded-pill bg-success">Recomendaded</span><br>
+               <span> GOODTIMES LIMITED </span>
+               <p class="avaliacao d-flex glow "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+            
+               <p> 0,0050 BTC / 0,06330 ETH</p>
+
+               <p>A high quality product from our premium source. All the MDAM you will ever need, and much more. With 400mg of MDMA per pill it guarantees an extraordinary experience</p>
+            
+            </div>
+            <!-- Col-->
+
+            <div class="col-md-3 cartadd">
+
+                <div class="card  cart">
+
+                    <div class="card-body cart ">
+
+                        <p >Guaranteed delivery within 4 workdays. choose premium at checkout for fast shipping option.</p>
+                        <p> from shipping </p>
+                        <span class="text-success"> In Stock.</span>
+                        
+                        <div class="d-grid mt-3 mb-3">
+                        <button class="btn btn-outline-light btn-sm rounded-3"> <i class="bi bi-cart2"></i> Add to Cart</button> <br>
+                        <button class="btn btn-outline-light btn-sm rounded-3"> <i class="bi bi-play"></i> Buy Now</button> 
+                    </div> 
+                    
+                    <p class="c"> Shipped and add by myDrugs.com</p>
+                    </div>
+                </div>
+                
+            </div>
+
+    </div>
+
+    <hr>
+    <!-- linha de customer-->
+
+    <div class="row container-fluid">
+    <h5> CUSTOMERS WHO BOUGHT THIS PRODUCT ALSO BOUGHT</h5>
+        <div class="col-md-3">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/drugs/green.png' %}" alt="">
+                        </div>
+
+                        <div class="col-md-auto">
+                                <h6> GREEN SNOWFLAKE</h6>
+
+                                <span class=""> <i> 0,0027 BTC</i></span>
+                                <span class="avaliacao d-flex glow "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- -->
+
+        <div class="col-md-3">
+
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="row">
+
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/drugs/purple.png' %}" alt="">
+                        </div>
+
+                        <div class="col-md-auto">
+                                <h6> PURPLE FLOWER</h6>
+
+                                <span class=""> <i> 0,0027 BTC</i></span>
+                                <span class="avaliacao d-flex glow "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div>
+
+         <!-- -->
+
+         <div class="col-md-3">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/drugs/blue.png' %}" alt="">
+                        </div>
+
+                        <div class="col-md-auto">
+                                <h6> BLUE CLOVER</h6>
+
+                                <span class=""> <i> 0,0027 BTC</i></span>
+                                <span class="avaliacao d-flex glow "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+         <!-- -->
+
+         <div class="col-md-3">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/drugs/red.png' %}" alt="">
+                        </div>
+
+                        <div class="col-md-auto">
+                                <h6> RED PILL</h6>
+
+                                <span class=""> <i> 0,0027 BTC</i></span>
+                                <span class="avaliacao d-flex glow "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+    <!-- linha de REVIEWS-->
+
+    <div class="row container-fluid">
+
+        <h5> CUSTOMERS REVIEWS  </h5>
+
+        <div class="col-md-4">
+
+            <div class="d-flex">
+                <span class="avaliacao d-flex glow "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+               <p class="ms-3">  4.9 OUT OF 5</p>
+            </div>
+
+        </div>
+
+        <div class="col-md-8">
+
+            <div class="d-flex user">
+               <img class="img-fluid w-25 profile" src="{% static 'img/profile/j.png'%}" alt="">
+            
+              <span class="ms-2"> JonasXT</span> 
+               
+            </div>
+
+            <div class="d-flex user">
+                <span class="avaliacao d-flex  "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+             
+                <span class="ms-2"> <b> 1 start </b> </span> 
+                               
+             </div>
+             <span class="w-10"> 2 Weeks ago</span>
+             <p class="coment"> WOWW, i LOVE it, the BEST site!!</p>
+
+              <p class=""> 18 peoples found this review helpful</p>
+             <div class="d-flex btns">
+
+                <button class="btn btn-outline-light"> Helpful </button>  <span class="ms-3"> | </span>  
+                <button class="btn btn-outline-light ms-3"> Comment </button>    <span class="ms-3"> | </span>  
+                <button class="btn btn-outline-light ms-3"> Report </button>    
+             </div>
+        <hr>
+        </div>
+    </div>
+
+    
+    {% endblock %}
+
