@@ -1,69 +1,103 @@
 
 var myCarousel = document.querySelector('#carouselExampleIndicators')
 var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 750,
-    wrap: false,
+  
+  interval: 1000,
+  wrap: false,
+
 
    
 
 })
 
+var myCarousel = document.getElementById('carouselExampleIndicators')
 
-
-
-  setInterval(function(){ 
+myCarousel.addEventListener('slid.bs.carousel', function () {
   
+  var active = $(event.target).find('.carousel-indicators > .indicador.active');
+  var from = active.index()
+  var next = $(event.relatedTarget);
+  var to = next.index();
+  
+  console.log(to) 
+    
+  var preto = '#212429'
+  var vermelho = '#CE2A50'
+  var roxo = '#6B15AC'
+  var verde = '#adcc4e'
+  var azul = '#3C99D2' 
+
+ 
+
+  if(to == 1){ 
+  document.getElementById("navbar").style.backgroundColor = vermelho;
+
+  }else if (to == 2){
+    document.getElementById("navbar").style.backgroundColor = roxo;
+  }else if(to == 3){
+    document.getElementById("navbar").style.backgroundColor = verde;
+  }else if(to == 4){
+    document.getElementById("navbar").style.backgroundColor =azul;
+  }else {
+    document.getElementById("navbar").style.backgroundColor = preto;
+  }
+ 
+})
+
+
+
+
+  
+/*
+  setInterval(function(){   
+    var colors = ["#212429","#CE2A50","#6B15AC","#7ed957","#efd77a"];
+    
     var preto = '#212429'
     var vermelho = '#CE2A50'
+    var roxo = '#6B15AC'
     var verde = '#7ed957'
+    
     var amarelho = '#efd77a'
  
+   
+         
     document.getElementById("navbar").style.backgroundColor = vermelho;
-  
- 
+    
+   
+    
         
- 
- }, 2000);
+
+ }, 1000);
   
-
-
 
 
 setInterval(function(){ 
     
     var vermelho = '#CE2A50'
     var verde = '#7ed957'
+    var roxo = '#6B15AC'
     var amarelho = '#efd77a'
 
-    document.getElementById("navbar").style.backgroundColor = vermelho;
+    document.getElementById("navbar").style.backgroundColor = roxo;
 
-       
-    
+         
 
-}, 3000);
+}, 2000);
+
 
 setInterval(function(){ 
         
     var vermelho = '#f14953'
     var roxo = '#6B15AC'
     var amarelho = '#efd77a'
-
-    document.getElementById("navbar").style.backgroundColor = roxo;
-    document.getElementById("caroulseldiv").style.backgroundColor = roxo;
-
-
-}, 4000);
-
-setInterval(function(){ 
-        
-    var vermelho = '#f14953'
     var verde = '#A1C74B'
-    var amarelho = '#efd77a'
 
     document.getElementById("navbar").style.backgroundColor = verde;
+    
 
 
-}, 5000);
+}, 3000);
+
 
 setInterval(function(){ 
         
@@ -74,7 +108,16 @@ setInterval(function(){
   document.getElementById("navbar").style.backgroundColor = azul;
 
 
-}, 6000);
+}, 4000);
+
+setInterval(function(){ 
+               
+  var preto = '#212429'
+
+  document.getElementById("navbar").style.backgroundColor = preto;
+
+
+}, 5000);
 
 
 
@@ -82,3 +125,4 @@ setInterval(function(){
 
  
 
+*/

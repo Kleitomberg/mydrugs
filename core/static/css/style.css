@@ -24,11 +24,7 @@ div#navbarNav {
     justify-content: center;
 }
 
-body {
-    background: url('webb-dark.png') no-repeat center center fixed;
-    height: auto;
-    overflow-y: hidden;
-    }
+
     
     @media (min-width: 992px) {
         .navbar {
@@ -48,12 +44,6 @@ body {
     width: 70px;
     }
 
-
-    .vertical .carousel-inner {
-        height: 100%;
-      }
-      
-   
 
       .card {
         position: relative;
@@ -76,3 +66,11 @@ body {
         width: 5px !important;
         height: 5px !important;
       }
+
+           
+    
+    #container{
+        width:1000px;
+        margin:0 auto;
+        height:100%;
+    }
