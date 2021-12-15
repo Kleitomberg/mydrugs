@@ -2,3 +2,5 @@
 .env
 _pychace_
 *_
+
+node_modules

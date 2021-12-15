@@ -21,7 +21,7 @@ myCarousel.addEventListener('slid.bs.carousel', function () {
   
   console.log(to) 
     
-  var preto = '#212429'
+  var preto = '#222429'
   var vermelho = '#CE2A50'
   var roxo = '#6B15AC'
   var verde = '#adcc4e'
