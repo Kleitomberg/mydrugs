@@ -1,3 +1,24 @@
+
+    /* carrosel */
+
+    .carousel-item-next.carousel-item-left,
+    .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0) !important;
+            transform: translate3d(0, 0, 0) ;
+     }
+     .carousel-item-next,
+     .active.carousel-item-right {
+       -webkit-transform: translate3d(0, -100%, 0) !important;
+            transform: translate3d(0, -100%, 0) !important;
+     }
+
+    
+     .carousel-item-prev,
+     .active.carousel-item-left {
+     -webkit-transform: translate3d(0, -100%, 0) !important;
+            transform: translate3d(0, -100%, 0)!important ;
+     }
+     
 body{
     color: white;
     background: rgb(0, 0, 0) !important;
@@ -74,3 +95,4 @@ div#navbarNav {
         margin:0 auto;
         height:100%;
     }
+

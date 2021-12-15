@@ -2,7 +2,7 @@
 var myCarousel = document.querySelector('#carouselExampleIndicators')
 var carousel = new bootstrap.Carousel(myCarousel, {
   
-  interval: 1000,
+  interval: 1500,
   wrap: false,
 
 
@@ -126,3 +126,11 @@ setInterval(function(){
  
 
 */
+
+$('#carouselExampleIndicators').bind('slide.bs.carousel', function (e) {
+  console.log('slide event!');
+});
+
+$('#carouselExampleIndicators').bind('slid', function (e) {
+  console.log("slid event!");
+});
