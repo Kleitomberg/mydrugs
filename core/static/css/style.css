@@ -170,3 +170,26 @@ div#navbarNav {
         height: 40px;
         font-size: 14px;
     }
+
+    span.avaliacao{
+        gap: 4px;
+    }
+
+    span.datacoment{
+        font-size: 12px;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: rgb(136, 136, 136);
+    }
+
+    p.interacoes{
+        font-size: 12px;
+        color: rgb(173, 173, 173);
+        margin: 0;
+    }
+
+    a.comment.active{
+        border: 1px solid #fff;
+        border-radius: 18px;
+
+    }

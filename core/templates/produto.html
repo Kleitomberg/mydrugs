@@ -169,6 +169,7 @@
 
         <h5> CUSTOMERS REVIEWS  </h5>
 
+        <!-- coluna lateral -->
         <div class="col-md-4">
 
             <div class="d-flex">
@@ -176,10 +177,21 @@
                <p class="ms-3">  4.9 OUT OF 5</p>
             </div>
 
-        </div>
+            <div> graficos</div>
 
-        <div class="col-md-8">
+            <div> Filtro by</div>
 
+            <div> Review this product by</div>
+
+            <div> Recomended</div>
+
+
+        </div> <!-- fim da coluna-->
+
+
+        <!-- coluna comentarios-->
+     <div class="col-md-8">
+        <div> 
             <div class="d-flex user">
                <img class="img-fluid w-25 profile" src="{% static 'img/profile/j.png'%}" alt="">
             
@@ -193,19 +205,77 @@
                 <span class="ms-2"> <b> 1 start </b> </span> 
                                
              </div>
-             <span class="w-10"> 2 Weeks ago</span>
+             <span class="w-10 datacoment"> 2 Weeks ago</span>
              <p class="coment"> WOWW, i LOVE it, the BEST site!!</p>
 
-              <p class=""> 18 peoples found this review helpful</p>
-             <div class="d-flex btns">
+              <p class="interacoes"> 18 peoples found this review helpful</p>
+             <div class="d-flex btns mt-2">
 
-                <button class="btn btn-outline-light"> Helpful </button>  <span class="ms-3"> | </span>  
-                <button class="btn btn-outline-light ms-3"> Comment </button>    <span class="ms-3"> | </span>  
-                <button class="btn btn-outline-light ms-3"> Report </button>    
+                <a class="btn comment active"> Helpful </a>  <span class="ms-3"> | </span>  
+                <a class="btn comment ms-3"> Comment </a>    <span class="ms-3"> | </span>  
+                <a class="btn comment ms-3"> Report </a>    
              </div>
         <hr>
-        </div>
     </div>
+<!-- comentario 2-->
+    <div> 
+        <div class="d-flex user">
+           <img class="img-fluid w-25 profile" src="{% static 'img/profile/m.png'%}" alt="">
+        
+          <span class="ms-2"> Mark</span> 
+           
+        </div>
+
+        <div class="d-flex user">
+            <span class="avaliacao d-flex  "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+         
+            <span class="ms-2"> <b> 1 start </b> </span> 
+                           
+         </div>
+         <span class="w-10 datacoment"> 2 Weeks ago</span>
+         <p class="coment"> WOWW, i LOVE it, the BEST site!!</p>
+
+          <p class="interacoes"> 18 peoples found this review helpful</p>
+         <div class="d-flex btns mt-2">
+
+            <a class="btn comment active"> Helpful </a>  <span class="ms-3"> | </span>  
+            <a class="btn comment ms-3"> Comment </a>    <span class="ms-3"> | </span>  
+            <a class="btn comment ms-3"> Report </a>    
+         </div>
+    <hr>
+</div>
+
+<!-- coentari0o 3-->
+<div> 
+    <div class="d-flex user">
+       <img class="img-fluid w-25 profile" src="{% static 'img/profile/f.png'%}" alt="">
+    
+      <span class="ms-2"> Frankstein</span> 
+       
+    </div>
+
+    <div class="d-flex user">
+        <span class="avaliacao d-flex  "> <i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+     
+        <span class="ms-2"> <b> 1 start </b> </span> 
+                       
+     </div>
+     <span class="w-10 datacoment"> 2 Weeks ago</span>
+     <p class="coment"> WOWW, i LOVE it, the BEST site!!</p>
+
+      <p class="interacoes"> 18 peoples found this review helpful</p>
+     <div class="d-flex btns mt-2">
+
+        <a class="btn comment active"> Helpful </a>  <span class="ms-3"> | </span>  
+        <a class="btn comment ms-3"> Comment </a>    <span class="ms-3"> | </span>  
+        <a class="btn comment ms-3"> Report </a>    
+     </div>
+<hr>
+</div>
+<!-- fim do comentario 3-->
+
+        </div> <!-- fim da coluina de comentarios-->
+</div> <!-- fim da lina de reviews-->
 
     
     {% endblock %}
