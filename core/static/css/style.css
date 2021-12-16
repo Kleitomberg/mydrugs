@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+    @font-face {
+        font-family: Panton;
+        src: url(../panton-rust-heavy-base.ttf)
+    }
+
 
     /* carrosel */
 
@@ -103,7 +109,7 @@ div#navbarNav {
 
 
     .glow {
-        text-shadow: 0 0 12px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;
+        text-shadow: 0 0 8px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;
         color: #fff;
         text-align: center;
         -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -112,7 +118,7 @@ div#navbarNav {
     }
 
     .gg{
-        text-shadow: 0 0 12px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;
+        text-shadow: 0 0 8px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;
     }
 
 
@@ -171,7 +177,7 @@ div#navbarNav {
         font-size: 14px;
     }
 
-    span.avaliacao{
+    span.avaliacao, p.avaliacao{
         gap: 4px;
     }
 
@@ -192,4 +198,54 @@ div#navbarNav {
         border: 1px solid #fff;
         border-radius: 18px;
 
+    }
+
+    h1.productitle{
+        font-family: Panton;
+        margin-bottom: 0;
+    }
+
+    h5.bg-nonecard-title{
+        font-family: Panton;
+    }
+    
+    h1.productitle span {
+        position: relative;
+        top: -13px;
+    }
+    div.h1 {
+        width: 35% !important;
+        margin-bottom: -19px;
+        padding: 0;
+    }
+
+    .verde{
+        background-color: rgb(26, 184, 110) !important;
+        font-size: 10px;
+    }
+
+    span.slg {
+      
+        letter-spacing: 1.5px;
+    }
+
+    p.d{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    div.base{
+        border: 1px solid rgb(218, 218, 218);
+        min-width: 155px;
+        border-radius: 16px;
+        
+        height: 4vh;
+    }
+
+    div.pintada{
+        background: rgb(218, 218, 218) !important;
+        border: 2px solid rgb(218, 218, 218);
+         width: 140px;
+        border-radius: 16px;
+        height: 4vh;
+        
     }
