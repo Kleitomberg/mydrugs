@@ -249,3 +249,40 @@ div#navbarNav {
         height: 4vh;
         
     }
+
+
+    /* Responsividade*/
+
+    @media (min-width: 200px) and (max-width: 425px) {
+
+        div.h1 {
+            width: 35% !important;
+            /* margin-bottom: -19px; */
+            padding: 0;
+        }
+
+        h1.productitle {
+            font-family: Panton;
+            margin-bottom: 15px !important;
+        }
+        
+        
+        h1.productitle span {
+            /* position: relative; */
+            top: 0 !important;
+        }
+        
+        .col-md-4.imagem {
+            text-align-last: center;
+        }
+        
+        .cartadd {
+            text-align: -webkit-center;
+        }
+        
+        .col-md-4.detalhes {
+            padding: 25px;
+        }
+    
+    
+    }
