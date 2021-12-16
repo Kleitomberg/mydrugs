@@ -5,10 +5,15 @@
   <img alt="mydrugs" title="LetMeAsk" src="https://github.com/Kleitomberg/mydrugs/blob/master/core/static/img/logo.png" style="width: 20vw;" /> <br>
   </h1>
 
+<div align="center"> 
 implementando layout de site inspirado na serie How to Sell Drugs Online (Fast) / Como Vender Drogas online
+</div>
 
+<div align="center"> 
+  
  ![Alt Text](https://github.com/Kleitomberg/mydrugs/blob/master/core/static/img/gith/slide.gif)
-
+  
+</div>
 A serie em si não é muito longa, possui 3 temporadas com 6 episodios cada, totalizando 18, sendo que cada tem em media 30 minutos.
 O desafio foi prestar atrenção em cada frame dos episodios para pescar quaisquer referencia do sistema exibido no serie. 
 
